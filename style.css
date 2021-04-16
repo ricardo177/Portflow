@@ -1,0 +1,54 @@
+* {
+    margin: 0 0 0 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box-header {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 100rem;
+    height: 6.5rem;
+}
+
+.box-logo {
+    display: flex;
+    align-items: center;
+    margin-left: 7rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.box-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 32em;
+    margin-left: 45em;
+}
+
+.box-menu li:hover { font-weight: 800; font-size: 1.5rem; }
+
+/* ------------ MAIN -----------------*/
+
+.laranja-box {
+    width: 100rem;
+}
+
+.text-main {
+    font-weight: 700;
+    font-size: 4rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: -25rem;
+    margin-left: 2em;
+}
+
+.fale-main {
+    color: white;
+    font-size: 2rem;
+    margin-top: 2em;
+    margin-left: 4em;
+}
